@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "homebridge-cmd": "0.0.3",
-    "homebridge-netatmo": "^0.2.0"
+    "homebridge-netatmo": "^0.2.0",
+    "homebridge-nremo": "0.0.3"
   }
 }
