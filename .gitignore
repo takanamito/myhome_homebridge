@@ -3,6 +3,11 @@
 
 .idea
 
+config/.docker.env
+config/auth.json
+config/persist/
+config/startup.sh
+
 ### Node ###
 # Logs
 logs
