@@ -2,6 +2,10 @@
 
 [Homebridge](https://github.com/nfarina/homebridge) on Docker on Raspberry Pi.
 
+## Architecture
+
+![Architecture](./architecture.jpg)
+
 ## Usage
 
 Setup with [mitamae](https://github.com/itamae-kitchen/mitamae)
