@@ -5,9 +5,9 @@ services:
     restart: always
     network_mode: host
     volumes:
-    - ./config:/homebridge
+      - ./config:/homebridge
     environment:
-    - PGID=1000
-    - PUID=1000
-    - HOMEBRIDGE_CONFIG_UI=1
-    - HOMEBRIDGE_CONFIG_UI_PORT=8080
+      - PGID=1000
+      - PUID=1000
+      - HOMEBRIDGE_CONFIG_UI=1
+      - HOMEBRIDGE_CONFIG_UI_PORT=8080
