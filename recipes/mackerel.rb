@@ -14,8 +14,9 @@ execute 'mv /tmp/mackerel-agent_linux_arm/mackerel-agent /usr/bin/mackerel-agent
   not_if 'ls /usr/bin/mackerel-agent'
 end
 
-execute 'mv /tmp/mackerel-agent_linux_arm/mackerel-agent.conf /etc/mackerel-agent/mackerel-agent.conf' do
-  not_if 'ls /etc/mackerel-agent/mackerel-agent.conf'
+remote_file '/etc/mackerel-agent/mackerel-agent.conf' do
+  source './mackerel-agent.conf'
+  mode '644'
 end
 
 remote_file '/etc/systemd/system/mackerel-agent.service' do
