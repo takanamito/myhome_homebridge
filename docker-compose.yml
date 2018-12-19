@@ -4,8 +4,6 @@ services:
     image: oznu/homebridge:raspberry-pi
     restart: always
     network_mode: host
-    volumes:
-      - ./config:/homebridge
     environment:
       - PGID=1000
       - PUID=1000
