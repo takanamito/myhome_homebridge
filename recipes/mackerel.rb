@@ -1,4 +1,4 @@
-execute 'wget https://github.com/mackerelio/mackerel-agent/releases/download/v0.58.2/mackerel-agent_linux_arm.tar.gz -P /tmp'
+execute 'wget https://github.com/mackerelio/mackerel-agent/releases/download/v0.59.1/mackerel-agent_linux_arm.tar.gz -P /tmp'
 
 execute 'tar zxvf /tmp/mackerel-agent_linux_arm.tar.gz -C /tmp' do
   only_if 'ls /tmp/mackerel-agent_linux_arm.tar.gz'
