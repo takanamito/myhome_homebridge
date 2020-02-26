@@ -8,9 +8,15 @@
   "description": "NatureRemo Control",
   "accessories": [
     {
+      "accessory": "NatureRemoAircon",
+      "name": "エアコン",
+      "access_token": "<NatureRemo Cloud API AccessToken>",
+      "appliance_id": ""
+    },
+    {
       "accessory": "NatureRemo",
       "name": "ホームシアター",
-      "host": "10.0.1.11",
+      "host": "10.0.1.1",
       "path": "/messages",
       "delayBefore": 0,
       "delayAfter": 5000,
@@ -28,7 +34,7 @@
     {
       "accessory": "NatureRemo",
       "name": "プロジェクター",
-      "host": "10.0.1.11",
+      "host": "10.0.1.1",
       "path": "/messages",
       "delayBefore": 0,
       "delayAfter": 1000,
@@ -44,7 +50,7 @@
     {
       "accessory": "NatureRemo",
       "name": "スピーカー",
-      "host": "10.0.1.11",
+      "host": "10.0.1.1",
       "path": "/messages",
       "delayBefore": 0,
       "delayAfter": 5000,
@@ -61,7 +67,7 @@
     {
       "accessory": "NatureRemo",
       "name": "音量UP",
-      "host": "10.0.1.11",
+      "host": "10.0.1.1",
       "path": "/messages",
       "delayBefore": 200,
       "delayAfter": 0,
@@ -77,7 +83,7 @@
     {
       "accessory": "NatureRemo",
       "name": "音量DOWN",
-      "host": "10.0.1.11",
+      "host": "10.0.1.1",
       "path": "/messages",
       "delayBefore": 200,
       "delayAfter": 0,
@@ -93,7 +99,7 @@
     {
       "accessory": "NatureRemo",
       "name": "暖房21~22",
-      "host": "10.0.1.11",
+      "host": "10.0.1.1",
       "path": "/messages",
       "delayBefore": 0,
       "delayAfter": 0,
@@ -110,7 +116,7 @@
     {
       "accessory": "NatureRemo",
       "name": "エアコンOFF",
-      "host": "10.0.1.11",
+      "host": "10.0.1.1",
       "path": "/messages",
       "delayBefore": 0,
       "delayAfter": 0,
